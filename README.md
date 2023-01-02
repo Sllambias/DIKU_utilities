@@ -75,9 +75,9 @@ python -m pip freeze > requirements.txt
 #### Required:   
 #### Obtained: 
 
-#### _Hard coded variables_
+### _Hard coded variables_
 
-#### _Paths_
+### _Paths_
 
 
 
