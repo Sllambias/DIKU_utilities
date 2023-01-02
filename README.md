@@ -17,7 +17,7 @@ in the correct environment run
 python -V
 ```
 
-## Miniconda
+### Miniconda
 Managing working enviroments is important, and often multiple environments are necessary to avoid package conflicts, e.g. between PyTorch and Tensorflow installations. To this end virtual environments are extremely practical and can be maintained using the miniconda environment management software.
 
 To install miniconda in Cluster/Hendrix run the following commands in the terminal
