@@ -11,7 +11,7 @@ The required python version should always be reported
 
 > Python 3.7.15
 
-### Obtained:  
+#### Obtained:  
 in the correct environment run
 ```
 python -V
@@ -42,7 +42,7 @@ conda activate ENV_NAME
 
 # Dependencies
 The list of dependencies required to succesfully run a project should always be reported in e.g. the format of a requirements.txt file
-Required:   
+#### Required:   
 
 > batchgenerators==0.24   
 > matplotlib==3.5.3   
@@ -52,7 +52,7 @@ Required:
 > ...
 
 To retrieve and save the list of installed packages in a requirements.txt file run the following in the correct environment
-Obtained:   
+#### Obtained:   
 ```
 python -m pip freeze > requirements.txt
 ```
