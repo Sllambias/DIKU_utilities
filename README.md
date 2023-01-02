@@ -5,13 +5,14 @@ Structure and content heavily inspired by the DTU MLOPS course (https://skafteni
 The purpose of this guide is twofold. Primarily it serves to encourage reproducibility and compliance to appropriate standards. This is an end-to-end task requiring information from the earliest stages of environment creation to the final hyperparameter selection. Secondly, it aims to ease knowledge sharing through the use of shared tools.
 
 # Environment 
+To facilitate project reproducibility the required python version should always be reported
 
-To facilitate reproducibility the python version used should always be reported
 Required: 
 
 > Python 3.7.15
 
-Obtained: (in the correct environment)
+Obtained:
+in the correct environment run
 ```
 python -V
 ```
