@@ -11,7 +11,7 @@ Required:
 
 > Python 3.7.15
 
-Obtained:
+Obtained:  
 in the correct environment run
 ```
 python -V
@@ -41,7 +41,7 @@ conda activate ENV_NAME
 
 
 # Dependencies
-Required: 
+Required:   
 The list of dependencies required to succesfully run a project in the format of a requirements.txt file
 
 > batchgenerators==0.24   
@@ -51,7 +51,7 @@ The list of dependencies required to succesfully run a project in the format of 
 > SimpleITK==2.2.0   
 > ...
 
-Obtained: 
+Obtained:   
 To retrieve and save the list of installed packages in a requirements.txt file run the following in the correct environment
 ```
 python -m pip freeze > requirements.txt
