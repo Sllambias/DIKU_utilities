@@ -11,7 +11,7 @@ Structure and content heavily inspired by the DTU MLOPS course (https://skafteni
 
 The purpose of this guide is twofold. Primarily it serves to encourage reproducibility and compliance to appropriate standards. This is an end-to-end task requiring information from the earliest stages of environment creation to the final hyperparameter selection. Secondly, it aims to ease knowledge sharing through the use of shared tools.
 
-All the sections are structured similarly. First **Required** and **Obtained** presents the information that must be reported for compliance and reproduciblity along with how that information can be obtained. Then additional tools and tips are provided for managing the subject in a reasonable and sustainable way. For the seasoned programmer the **Required** parts are often sufficient and can serve as a check list.
+All the sections are structured similarly. First, **Required** and **Obtained** presents the information that must be reported for compliance and reproduciblity along with how that information can be obtained. Subsequently, project management tools such as [_Miniconda_](#miniconda) relevant to the section are provided. For the seasoned programmer the **Required** parts are often sufficient and can serve as a check list.
 
 # Environment 
 The python version used in the project should always be reported
