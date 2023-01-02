@@ -7,7 +7,9 @@ The purpose of this guide is twofold. Primarily it serves to encourage reproduci
 # Environment & Dependencies
 
 To retrieve the python version used for a project such as:
+
 > Python 3.7.15
+
 run the following in the correct enviroment:
 ```
 python -V
