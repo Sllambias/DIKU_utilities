@@ -6,7 +6,18 @@ The purpose of this guide is twofold. Primarily it serves to encourage reproduci
 
 # Environment 
 
+To facilitate reproducibility the python version used should always be reported
+Required: 
+
+> Python 3.7.15
+
+Obtained: (in the correct environment)
+```
+python -V
+```
+
 Managing working enviroments is important, and often multiple environments are necessary to avoid package conflicts, e.g. between PyTorch and Tensorflow installations. To this end virtual environments are extremely practical and can be maintained using the miniconda environment management software.
+
 To install miniconda in Cluster/Hendrix run the following commands in the terminal
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -16,28 +27,16 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh
 ```
 
-To create and employ a virtual environment using miniconda
+To create a virtual environment using miniconda the first command initializes an environement with the latest version of python while the second initializes it with a specific version
 ```
 conda create -n ENV_NAME
+conda create -n ENV_NAME python=3.9
+```
+The environment can then be activated
+```
 conda activate ENV_NAME
 ```
 
-
-
-Required: The current python version
-
-> Python 3.7.15
-
-Obtained: 
-In the correct environment run
-```
-python -V
-```
-
-Reproduced:
-```
-conda create -n ENV_NAME python=X.X
-```
 
 # Dependencies
 Required: 
@@ -55,11 +54,6 @@ Obtained:
 To retrieve and save the list of installed packages in a requirements.txt file run the following in the correct environment
 ```
 python -m pip freeze > requirements.txt
-```
-
-Reproduced:
-```
-pip install -r requirements.txt
 ```
 
 
