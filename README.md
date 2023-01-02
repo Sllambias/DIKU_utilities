@@ -4,9 +4,9 @@ Structure and content heavily inspired by the DTU MLOPS course (https://skafteni
 
 The purpose of this guide is twofold. Primarily it serves to encourage reproducibility and compliance to appropriate standards. This is an end-to-end task requiring information from the earliest stages of environment creation to the final hyperparameter selection. Secondly, it aims to ease knowledge sharing through the use of shared tools.
 
-# Environment & Dependencies
+# Environment 
 
-## Environment
+
 What: 
 The current python version
 
@@ -18,11 +18,29 @@ In the correct virtual environment run
 python -V
 ```
 
-## Dependencies
+# Dependencies
 What: 
+The list of dependencies required to succesfully run a project in the format of a requirements.txt file
 
-run the following in the correct enviroment:
-While the dependencies for a given environment can be retrieved and saved in a requirements.txt file using
+> ...
+> batchgenerators==0.24
+> matplotlib==3.5.3
+> numpy==1.21.6
+> Pillow==9.3.0
+> SimpleITK==2.2.0
+> ...
+
+How: 
+To retrieve and save the list of installed packages in a requirements.txt file run the following in the correct virtual environment
 ```
 python -m pip freeze > requirements.txt
 ```
+
+
+
+
+
+
+
+
+
