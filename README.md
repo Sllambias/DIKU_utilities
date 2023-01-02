@@ -45,13 +45,11 @@ Required:
 The list of dependencies required to succesfully run a project in the format of a requirements.txt file
 
 > batchgenerators==0.24
-> 
+
 > matplotlib==3.5.3
-> 
+
 > numpy==1.21.6
-> 
 > Pillow==9.3.0
-> 
 > SimpleITK==2.2.0
 > 
 > ...
