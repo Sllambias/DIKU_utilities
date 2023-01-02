@@ -14,14 +14,14 @@ The purpose of this guide is twofold. Primarily it serves to encourage reproduci
 All the sections are structured similarly. First, **Required** and **Obtained** describes the information that should always be reported for compliance and reproduciblity along with examples of how that information looks and can be obtained. Subsequently, project management tools relevant to the section are provided (e.g. [_Miniconda_](#miniconda)). For the seasoned programmer the **Required** parts are often sufficient and can serve as a check list.
 
 # Environment 
-The python version used in the project should always be reported
 
 #### Required: 
+The python version used in the project should always be reported
 
 > Python 3.7.15
 
 #### Obtained:  
-in the correct environment run
+in the appropriate environment run
 ```
 python -V
 ```
@@ -52,8 +52,9 @@ conda activate ENV_NAME
 
 
 # Dependencies
-The list of dependencies required to succesfully run a project should always be reported in e.g. the format of a requirements.txt file
 #### Required:   
+
+The list of dependencies required to succesfully run a project should always be reported in e.g. the format of a requirements.txt file
 
 > batchgenerators==0.24   
 > matplotlib==3.5.3   
@@ -62,8 +63,8 @@ The list of dependencies required to succesfully run a project should always be 
 > SimpleITK==2.2.0   
 > ...
 
-To retrieve and save the list of installed packages in a requirements.txt file run the following in the correct environment
 #### Obtained:   
+To retrieve and save the list of installed packages in a requirements.txt file run the following in the correct environment
 ```
 python -m pip freeze > requirements.txt
 ```
