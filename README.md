@@ -6,15 +6,22 @@ The purpose of this guide is twofold. Primarily it serves to encourage reproduci
 
 # Environment & Dependencies
 
-To retrieve the python version used for a project such as:
+## Environment
+What: 
+The current python version
 
 > Python 3.7.15
 
-run the following in the correct enviroment:
+How: 
+In the correct virtual environment run
 ```
 python -V
 ```
 
+## Dependencies
+What: 
+
+run the following in the correct enviroment:
 While the dependencies for a given environment can be retrieved and saved in a requirements.txt file using
 ```
 python -m pip freeze > requirements.txt
