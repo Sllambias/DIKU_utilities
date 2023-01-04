@@ -3,7 +3,7 @@ Structure and content heavily inspired by the DTU MLOPS course (https://skafteni
 
 # Table of Contents
 - [Table of Contents](#table-of-contents)
-- [TLDR: Project Requirements](#tldr:-project-requirements)
+- [Project Requirements](#project-requirements)
 - [Environment](#environment)
 - [Dependencies](#dependencies)
 - [Data Management](#data-management)
@@ -18,11 +18,11 @@ All the sections are structured similarly. First, **Required** and **Obtained** 
 Bullet point version of project requirements with links to descriptions and assistance.
 
 - Environment & Dependencies
-  - [Python version](#
+  - [Python version](#environment-reportables:)
 
 # Environment 
 
-#### Required: 
+#### Environment Reportables: 
 The python version used in the project should always be reported
 
 > Python 3.7.15
