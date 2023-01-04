@@ -3,15 +3,22 @@ Structure and content heavily inspired by the DTU MLOPS course (https://skafteni
 
 # Table of Contents
 - [Table of Contents](#table-of-contents)
+- [TLDR: Project Requirements](#tldr:-project-requirements)
 - [Environment](#environment)
 - [Dependencies](#dependencies)
 - [Data Management](#data-management)
-- [Conding Practices](#coding-practices)
+- [Coding Practices](#coding-practices)
 
 
 The purpose of this guide is twofold. Primarily it serves to encourage reproducibility and compliance to appropriate standards. This is an end-to-end task requiring information from the earliest stages of environment creation to the final hyperparameter selection. Secondly, it aims to ease knowledge sharing through the use of shared tools.
 
 All the sections are structured similarly. First, **Required** and **Obtained** describes the information that should always be reported for compliance and reproduciblity along with examples of how that information looks and can be obtained. Subsequently, project management tools relevant to the section are provided (e.g. [_Miniconda_](#miniconda)). For the seasoned programmer the **Required** parts are often sufficient and can serve as a check list.
+
+# Project Requirements
+Bullet point version of project requirements with links to descriptions and assistance.
+
+- Environment & Dependencies
+  - [Python version](#
 
 # Environment 
 
