@@ -18,7 +18,7 @@ All the sections are structured similarly. First, **Required** and **Obtained** 
 Bullet point version of project requirements with links to descriptions and assistance.
 
 - Environment & Dependencies
-  - [Python version](#environment-reportables:)
+  - [Python version](#environment-reportables)
 
 # Environment 
 
