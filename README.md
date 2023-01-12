@@ -6,7 +6,7 @@ Structure and content heavily inspired by the DTU MLOPS course (https://skafteni
 - [Project Requirements](#project-requirements)
 - [Environment](#environment)
 - [Dependencies](#dependencies)
-- [Data Management](#data-management)
+- [Preprocessing](#preprocessing)
 - [Coding Practices](#coding-practices)
 
 
@@ -54,8 +54,7 @@ To ensure that others can reproduce your results, they must be able to create an
 
 > Python 3.7.15
 
-#### Obtained:  
-in the appropriate environment run
+Obtained by running the following in the appropriate environment:
 ```
 python -V
 ```
@@ -72,8 +71,7 @@ The list of dependencies required to succesfully run a project should always be 
 > SimpleITK==2.2.0   
 > ...
 
-#### Obtained:   
-To retrieve and save the list of installed packages in a requirements.txt file run the following in the correct environment
+To retrieve and save the list of installed packages in a requirements.txt file, run the following in the correct environment
 ```
 python -m pip freeze > requirements.txt
 ```
@@ -100,7 +98,6 @@ For a project using the nnUNet framework this could include the:
 
 # Coding Practices
 #### Coding Reportables: 
-#### Obtained: 
 
 ### _Hard coded variables_
 
