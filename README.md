@@ -19,9 +19,9 @@ Bullet point version of project requirements with links to descriptions and assi
 
 - Environment & Dependencies
   - [Python version](#environment-reportables)
-  - [Dependencies](#dependency-reportables)
+  - [Dependencies/Requirements](#dependency-reportables)
 - Data
-  - [Preprocessing](#data-reportables)
+  - [Preprocessing Scripts](#data-reportables)
 
 # Environment 
 
