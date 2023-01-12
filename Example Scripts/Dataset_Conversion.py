@@ -3,6 +3,8 @@
 """
 Example script of clear data management.
 Based on the nnunet pipeline and their dataset_conversion scripts.
+
+This is meant to convert a dataset from the RAW contents of the ORIGINAL samples to conform with project conventions.
 """
 import gzip
 import shutil
