@@ -77,14 +77,13 @@ python -m pip freeze > requirements.txt
 ```
 
 # Data Management
-The exact preprocessing that is performed is always extremely important to make sure results are reproducible and to enable future debugging. Amongst easily lost pieces of information are: 
-> The random seed used to select slices, splits, etc. 
-> Reorientation implementations
-> Resampling implementations
-> Preprocessing pipelines
-> How images are loaded and stored (e.g. loading NIfTI images with SimpleITK and saving them with numpy transposes images)
-> ...
-Without explicit knowledge about what happens from RAW images to model training it's impossible to guarantee proper practice.
+The exact preprocessing that is performed is always extremely important to make sure results are reproducible and to enable future debugging. This could include documentation about: 
+- The random seed used to select slices, splits, etc. 
+- Reorientation implementations
+- Resampling implementations
+- Preprocessing pipelines
+- How images are loaded and stored (e.g. loading NIfTI images with SimpleITK and saving them with numpy transposes images)
+- ...  
 
 #### Data Reportables: 
 
