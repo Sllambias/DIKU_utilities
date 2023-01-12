@@ -19,6 +19,7 @@ Bullet point version of project requirements with links to descriptions and assi
 
 - Environment & Dependencies
   - [Python version](#environment-reportables)
+  - [Dependencies](#dependencies)
 
 # Environment 
 
@@ -76,11 +77,20 @@ python -m pip freeze > requirements.txt
 ```
 
 # Data Management
-#### Required:   
-#### Obtained:   
+The exact preprocessing that is performed is always extremely important to make sure results are reproducible and to enable future debugging. Amongst easily lost pieces of information are: 
+> The random seed used to select slices, splits, etc. 
+> Reorientation implementations
+> Resampling implementations
+> Preprocessing pipelines
+> How images are loaded and stored (e.g. loading NIfTI images with SimpleITK and saving them with numpy transposes images)
+> ...
+Without explicit knowledge about what happens from RAW images to model training it's impossible to guarantee proper practice.
+
+#### Data Reportables: 
+
 
 # Coding Practices
-#### Required:   
+#### Coding Reportables: 
 #### Obtained: 
 
 ### _Hard coded variables_
