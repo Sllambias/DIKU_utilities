@@ -22,17 +22,6 @@ Bullet point version of project requirements with links to descriptions and assi
 
 # Environment 
 
-#### Environment Reportables: 
-The python version used in the project should always be reported
-
-> Python 3.7.15
-
-#### Obtained:  
-in the appropriate environment run
-```
-python -V
-```
-
 ### _Miniconda_
 Managing working enviroments is important, and often multiple environments are necessary to avoid package conflicts, e.g. between PyTorch and Tensorflow installations. To this end virtual environments are practical and can be initialized using the miniconda environment management software.
 
@@ -49,17 +38,27 @@ To create a virtual environment using miniconda with either
 (1) the latest version of python or
 (2) a specific version of python
 ```
-conda create -n ENV_NAME
-conda create -n ENV_NAME python=3.9
+conda create -n MY_TORCH_ENVIRONMENT
+conda create -n MY_TORCH_ENVIRONMENT python=3.9
 ```
 The environment can then be activated
 ```
-conda activate ENV_NAME
+conda activate MY_TORCH_ENVIRONMENT
 ```
 
+#### Environment Reportables: 
+To ensure that others can reproduce your results, they must be able to create an environment identical to yours (see Docker for an alternative solution), starting with the python version. The python version(s) used in the project should be reported as:
+
+> Python 3.7.15
+
+#### Obtained:  
+in the appropriate environment run
+```
+python -V
+```
 
 # Dependencies
-#### Required:   
+#### Dependency Reportables: 
 
 The list of dependencies required to succesfully run a project should always be reported in e.g. the format of a requirements.txt file
 
@@ -75,6 +74,7 @@ To retrieve and save the list of installed packages in a requirements.txt file r
 ```
 python -m pip freeze > requirements.txt
 ```
+
 # Data Management
 #### Required:   
 #### Obtained:   
