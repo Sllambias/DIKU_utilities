@@ -19,7 +19,8 @@ Bullet point version of project requirements with links to descriptions and assi
 
 - Environment & Dependencies
   - [Python version](#environment-reportables)
-  - [Dependencies](#dependencies)
+  - [Dependencies](#dependency-reportables)
+  - [Data Management](#data-reportables)
 
 # Environment 
 
@@ -84,12 +85,19 @@ The exact preprocessing that is performed is always extremely important to make 
 - Preprocessing pipelines
 - How images are loaded and stored (e.g. loading NIfTI images with SimpleITK and saving them with numpy transposes images)
 
+And very importantly once data or results based on the scripts are used anywhere: DO NOT CHANGE THEM.
+Instead, if you need to change MyScript.py create MyScriptV2.py. 
+
 #### Data Reportables: 
 Include the scripts used to process each dataset along with the order they are applied in.
-For a project using the nnUNet framework this will include:
+For a project using the nnUNet framework this will include a Dataset Conversion script to prepare the data for the nnUNet framework,
+an Experiment Planner used to determine the preprocessing pipeline to use and save information relevant to the pipeline, 
+and finally the Preprocessor determining the operations carried out in preprocessing. 
+
 - [Dataset Conversion](Example_Scripts/DatasetConversion_FakeTask.py)
 - [Experiment Planner](Example_Scripts/DIKUExperimentPlanner.py)
 - [Preprocessing](Example_Scripts/DIKUPreprocessor.py)
+
 
 # Coding Practices
 #### Coding Reportables: 
