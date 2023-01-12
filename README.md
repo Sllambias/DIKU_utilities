@@ -85,7 +85,9 @@ The exact preprocessing that is performed is always extremely important to make 
 - How images are loaded and stored (e.g. loading NIfTI images with SimpleITK and saving them with numpy transposes images)
 
 #### Data Reportables: 
-
+Include the scripts used to process each dataset along with the order they are applied in.
+For a project using the nnUNet framework this will include a
+[Dataset Conversion Script](#Example Scripts/Dataset_Conversion.py)
 
 # Coding Practices
 #### Coding Reportables: 
