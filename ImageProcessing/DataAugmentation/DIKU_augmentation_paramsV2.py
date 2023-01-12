@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Mar  4 11:39:07 2022
-
+2nd iteration of the parameter values.
+V1 still exists as results were reported using those values.
 @author: Sebastian
 """
 ### DIKU DATA AUGMENTATION PARAMETERS
