@@ -90,13 +90,11 @@ Instead, if you need to change MyScript.py create MyScriptV2.py.
 
 #### Data Reportables: 
 Include the scripts used to process each dataset along with the order they are applied in.
-For a project using the nnUNet framework this will include a Dataset Conversion script to prepare the data for the nnUNet framework,
-an Experiment Planner used to determine the preprocessing pipeline to use and save information relevant to the pipeline, 
-and finally the Preprocessor determining the operations carried out in preprocessing. 
+For a project using the nnUNet framework this could include the:
 
-- [Dataset Conversion](Example_Scripts/DatasetConversion_FakeTask.py)
-- [Experiment Planner](Example_Scripts/DIKUExperimentPlanner.py)
-- [Preprocessing](Example_Scripts/DIKUPreprocessor.py)
+- [Dataset Conversion](Example_Scripts/DatasetConversion_FakeTask.py) script preparing the data for the nnUNet framework 
+- [Experiment Planner](Example_Scripts/DIKUExperimentPlanner.py) used to select the preprocessing pipeline and save relevant information  
+- [Preprocessor Pipeline](Example_Scripts/DIKUPreprocessor.py) carrying out the preprocessing operations  
 
 
 # Coding Practices
