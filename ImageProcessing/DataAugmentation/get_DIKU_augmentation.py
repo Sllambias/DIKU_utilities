@@ -15,7 +15,7 @@ from batchgenerators.transforms.spatial_transforms import SpatialTransform, Mirr
 from batchgenerators.transforms.utility_transforms import RemoveLabelTransform, RenameTransform, NumpyToTensor
 from nnunet.training.data_augmentation.custom_transforms import MaskTransform
 from nnunet.training.data_augmentation.downsampling import  DownsampleSegForDSTransform2
-from nnunet.training.data_augmentation.DIKUTransforms import multiplicativeNoise, additiveNoise, \
+from nnunet.training.data_augmentation.DIKU_Transforms import multiplicativeNoise, additiveNoise, \
     motionGhosting, gibbsRinging, biasField, contrastIntensity, contrastStretch
 
 def get_DIKU_augmentation(dataloader_train, dataloader_val, patch_size, params=None,
