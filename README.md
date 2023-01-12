@@ -84,9 +84,6 @@ The exact preprocessing that is performed is always extremely important to make 
 - Preprocessing pipelines
 - How images are loaded and stored (e.g. loading NIfTI images with SimpleITK and saving them with numpy transposes images)
 
-And very importantly once data or results based on the scripts are used anywhere: DO NOT CHANGE THEM.
-Instead, if you need to change MyScript.py create MyScriptV2.py. 
-
 #### Preprocessing Reportables: 
 Include the scripts used to process each dataset along with the order they are applied in.
 For a project using the nnUNet framework this could include the:
@@ -97,6 +94,10 @@ For a project using the nnUNet framework this could include the:
 
 
 # Coding Practices
+
+Very importantly once data or results based on the scripts are used anywhere: DO NOT CHANGE THEM.
+Instead, if you need to change MyScript.py create MyScriptV2.py. 
+
 #### Coding Reportables: 
 
 ### _Hard coded variables_
