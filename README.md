@@ -21,7 +21,7 @@ Bullet point version of project requirements with links to descriptions and assi
   - [Python version](#environment-reportables)
   - [Dependencies](#dependency-reportables)
 - Data
-  - [Data Management](#data-reportables)
+  - [Preprocessing](#data-reportables)
 
 # Environment 
 
@@ -78,7 +78,7 @@ To retrieve and save the list of installed packages in a requirements.txt file r
 python -m pip freeze > requirements.txt
 ```
 
-# Data Management
+# Preprocessing
 The exact preprocessing that is performed is always extremely important to make sure results are reproducible and to enable future debugging. This could include documentation about: 
 - The random seed used to select slices, splits, etc. 
 - Reorientation implementations
@@ -89,7 +89,7 @@ The exact preprocessing that is performed is always extremely important to make 
 And very importantly once data or results based on the scripts are used anywhere: DO NOT CHANGE THEM.
 Instead, if you need to change MyScript.py create MyScriptV2.py. 
 
-#### Data Reportables: 
+#### Preprocessing Reportables: 
 Include the scripts used to process each dataset along with the order they are applied in.
 For a project using the nnUNet framework this could include the:
 
