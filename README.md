@@ -83,7 +83,6 @@ The exact preprocessing that is performed is always extremely important to make 
 - Resampling implementations
 - Preprocessing pipelines
 - How images are loaded and stored (e.g. loading NIfTI images with SimpleITK and saving them with numpy transposes images)
-- ...  
 
 #### Data Reportables: 
 
