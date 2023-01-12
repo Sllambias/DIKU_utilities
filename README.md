@@ -87,8 +87,9 @@ The exact preprocessing that is performed is always extremely important to make 
 #### Data Reportables: 
 Include the scripts used to process each dataset along with the order they are applied in.
 For a project using the nnUNet framework this will include:
-- [Dataset Conversion](Example_Scripts/Dataset_Conversion.py)
-- [Preprocessing]
+- [Dataset Conversion](Example_Scripts/DatasetConversion_FakeTask.py)
+- [Experiment Planner](Example_Scripts/DIKUExperimentPlanner.py)
+- [Preprocessing](Example_Scripts/DIKUPreprocessor.py)
 
 # Coding Practices
 #### Coding Reportables: 
